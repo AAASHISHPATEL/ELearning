@@ -14,9 +14,9 @@ const port = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI;
 
 const allowedOrigins = [
-  'http://localhost:5173',
-  'https://lms-frontend-wheat-beta.vercel.app',
-  process.env.CLIENT_URL
+  "http://localhost:5173",
+  "https://e-learning-umber-one.vercel.app/",
+  process.env.CLIENT_URL,
 ];
 
 const corsOptions = {
