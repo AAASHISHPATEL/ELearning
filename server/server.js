@@ -15,7 +15,7 @@ const MONGO_URI = process.env.MONGO_URI;
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://e-learning-umber-one.vercel.app/",
+  "https://e-learning-umber-one.vercel.app",
   process.env.CLIENT_URL,
 ];
 
